@@ -1,0 +1,80 @@
+Exercicio 1
+
+void main() {
+
+  String nome = "Renata";
+  String sobrenome = "Silva";
+  int idade = 27;
+  String endereco = "Rua Fernades";
+  
+  print("Nome: $nome \n"
+        "Sobrenome: $sobrenome"
+        "Idade: $idade\n"
+        "Endereço: $endereco");
+}
+
+---------------------------------------------------
+Exercicio 2
+
+void main() {
+ 
+  double valor_inicial = 1.50;
+  double valor_final = 0;
+  int pessoas = 4;
+  
+  valor_final = valor_inicial* pessoas;
+  
+  print("Valor de cada ingresso é: $valor_inicial \n"
+        "Quantidade de ingressos: $pessoas \n"
+        "Valor final dos ingressos: $valor_final");
+}
+
+---------------------------------------------------
+Exercicio 3
+
+void main() {
+ 
+  double base_menor = 5.50;
+  int base_maior = 10;
+  double altura = 1.60;
+  
+  double area = ((base_maior + base_menor)*altura)/2;
+  
+  print("A área do trapézio é: $area");
+  
+}
+
+---------------------------------------------------
+Exercicio 4
+
+void main() {
+ 
+  double altura = 10.50;
+  int largura = 20;
+  double area = 0;
+  
+  area = altura * largura;
+  
+  print("A área do quadrado é: $area");
+  
+  
+}
+
+---------------------------------------------------
+Exercicio 5
+
+void main() {
+
+  String nome1 = "Claudio";
+  String nome2 = "James";
+  
+  if(nome1 == nome2){
+    print("É a mesma pessoa");
+  }else{
+    print("Os nomes não conferem");
+  };
+  
+  
+}
+
+
