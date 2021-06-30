@@ -1,0 +1,150 @@
+Variaveis
+
+void main() {
+  
+  //variaveis
+  var nome = "Jacinto Sauro";
+  var idade = "24 anos";
+  var endereco = "Rua ABC, 56";
+  
+  //Saida dos dados
+  print(nome);
+  print(idade);
+  print(endereco);
+  
+  //Saida concatenada
+  print(nome + idade + endereco);
+  
+  //Saída concatenada com quebra de linha
+  print("Nome: $nome \n"
+        "Idade: $idade \n"
+        "Endereço: $endereco");
+}
+
+--------------------------------------------------------
+
+void main() {
+  
+  //Variáveis dp tipo number
+  //variavel num pode receber inteiros e pontos     flutuantes
+  num pi = 3;
+  pi = 3.14;
+  print(pi);
+  
+  //variável do tipo int so pode receber num         inteios
+  int valor = 3;
+  valor = 3;
+  print(valor);
+  
+  //var double pode receber numeros inteiros e       flutuantes
+  double valor1 = 3;
+  valor1 = 3.5;
+  print(valor1);
+ 
+  //Somado
+  print(pi + valor + valor1);
+  
+  //concatenado
+  print("valor de PI: $pi\n"
+        "Valor: $valor\n"
+        "Valor2 $valor1");
+}
+
+--------------------------------------------------------
+
+void main() {
+  
+  //Var do tipo String
+  String nome_usuario = "Joana";
+  String sobrenome_usuario = "Silva";
+  String altura = "1,70";
+  
+  //uso do print concatenado
+  
+  print("Nome: $nome_usuario\n"
+        "Sobrenome: $sobrenome_usuario\n"
+        "Altura: $altura");
+  
+  print("-------------------------");
+  
+  //outra alternativa
+  print("Nome: " + nome_usuario + "\n"
+        "Sobrenome: " + sobrenome_usuario + "\n"
+        "Altura: " + altura);
+  
+}
+
+--------------------------------------------------------
+
+void main() {
+
+  //var dynamic pode ser qualquer tipo de variavel e pode ser alterada   durante a execução
+  dynamic nome = "Bruno"; //dado String
+  dynamic idade = 22; //dado int
+  dynamic peso = 55.6; //dado double
+  dynamic altura = 1.88; //dado num
+  
+  print("Nome: $nome\n"
+        "Idade: $idade\n"
+        "Peso: $peso\n"
+        "Altura: $altura");
+  
+  
+}
+
+
+--------------------------------------------------------
+
+void main() {
+
+  //criando a função
+  void exibirMensagem(){
+    
+    //inserir os codes que fazem parte da função
+    print("Eu sou uma função!");
+        
+  }
+  
+  //chamar a função
+  exibirMensagem();
+  
+  
+}
+
+--------------------------------------------------------
+
+void main() {
+
+  //declaração da constante "const"
+  const NOME = "Maria de Souza";
+  
+  print(NOME);
+  
+}
+
+--------------------------------------------------------
+
+void main() {
+  
+  //Variaveis
+  double a = 12.5;
+  double b = 24;
+  
+  //adição
+  double soma = a + b;
+  
+  //subtração
+  double subtrair = a - b;
+  
+  //multiplicação
+  double multiplicar = a * b;
+  
+  //divisão
+  double div = a / b;
+  
+  print("A soma entre 12,5 e 24 é: $soma\n"
+        "A subtração de 12,5 e 24 é: $subtrair\n"
+        "A multiplicação de 12,5 e 24 é: $multiplicar\n"
+        "A divisão de 12,5 e 24 é: $div");
+  
+}
