@@ -1,0 +1,111 @@
+------------------------------------------------------
+2. Escreva uma função que receba dois números inteiros retorne o menor número.
+
+void main() {
+ 
+  int num1 = 5;
+  int num2 = 9;
+  
+  if(num1 > num2) {
+    print("Seu primeiro numero $num1 e maior");
+  }else{
+    print("Seu primeiro numero $num1 e menor");
+  }
+  
+}
+
+------------------------------------------------------
+
+//4. Faça uma função que recebe um valor inteiro e verifica se o valor //é positivo ou negativo. A função deve retornar um valor booleano.
+void main() {
+
+ String numeroInt = verInt (6);
+  print(numeroInt);
+  
+}
+
+String verInt (double positivo) {
+    if(positivo > 0){
+      return "positivo";
+    }else{
+      return "Negativo";
+    }
+  }
+
+------------------------------------------------------
+
+//exercio 6
+/*10. Fazer um programa que receba 2 números e informe:
+  a) A soma dos números;
+  b) O produto do primeiro número pelo quadrado do segundo;
+  c) O quadrado do primeiro número;
+  d) O triplo do dobro da soma dos dois números
+  e) A metade do triplo do dobro da soma dos dois números
+  f) O módulo do primeiro número.
+*/
+void main() {
+
+  int num1 = 10;
+  int num2 = 13;
+  
+  int soma = num1 + num2;
+  int quad = num1 * num2;
+  int quad1 = num1 * num1;
+  int trip = (((num1 + num2)*2)*3);
+  int modulo = num1 % num2;
+  
+  
+  print("A soma dos numero é: $soma\n"
+        "O quadrado do primeiro numero com o segundo é: $quad\n"
+        "O quadrado do primeiro numero é: $quad1\n"
+        "A metade do triplo do dobro da soma dos dois números é: $trip"
+        "O modulo do primeiro numero é: $modulo);
+  
+}
+
+------------------------------------------------------
+
+//9.Faça uma função que recebe um valor inteiro e verifica se o valor é par. A função deve retornar 1 se o número for par e 0 se for ímpar
+
+void main() {
+  String ver = soma(5);
+  print("Seu numero é: $ver");
+
+}
+
+String soma(int numero) {
+ if(numero % 2 == 0){
+   return "Par";
+ }else{
+   return "Impar";
+ }
+  
+  
+}
+
+------------------------------------------------------
+
+/*11. Faça um programa que leia dois valores e imprima:
+  a) se o primeiro valor for menor que o segundo, a lista de valores do primeiro até
+o segundo;
+  b) se o primeiro valor for menor que o segundo a lista de valores do segundo até
+o primeiro em ordem decrescente;
+  c) se ambos forem iguais a mensagem "valores iguais".
+*/
+
+void main() {
+  
+  int num1 = 500;
+  int num2 = 84;
+  
+  if(num1 < num2){
+    print("Menor numero: $num1\n"
+          "Segundo menor numero: $num2");
+  }else if(num2 < num1){
+    print("Menor numero: $num2\n"
+          "Segundo menor numero: $num1");
+  }else{
+    print("Os numeros são iguais");
+  }
+  
+}
