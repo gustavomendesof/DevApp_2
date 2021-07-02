@@ -1,0 +1,100 @@
+
+void main() {
+  for (int i = 0; i< 10; i++) {
+    print('hello ${i + 1}');
+  }
+}
+
+-------------------------------------------------
+
+void main() {
+  for (int x = 0; x <= 20; x +=2) {
+    print("valor: $x");
+  }
+}
+
+-------------------------------------------------
+
+void main() {
+  for (int x = 20; x >= 0; x--) {
+    print("valor: $x");
+  }
+}
+
+-------------------------------------------------
+
+void main() {
+  const List numero_primos = [2,3,5,7,11];
+  for(int num in numero_primos) {
+    print(num);
+  }
+}
+
+-------------------------------------------------
+
+void main() {
+  int soma = 0;
+  String res ="0";
+  
+  for(int i = 1; i <= 18; i++) {
+    res += " ${i + 1}";
+    soma = soma + i + 1;
+    
+    print("$res = $soma");
+  }
+}
+
+-------------------------------------------------
+
+void main() {
+  int maior = 0;
+  
+  for(int i = 0; i <= 6; i++) {
+    print("Valores: " + i.toString());
+    
+    maior = i;
+    
+    if(i >= maior) {
+      
+    }
+  }
+  
+  print("Maior é: e " + maior.toString());
+  
+}
+
+-------------------------------------------------
+
+void main() {
+  int i = 0;
+  
+  while(i < 10){
+    print("Exibe o número: $i");
+    i++;
+  }
+  
+}
+
+-------------------------------------------------
+
+void main() {
+  int i = 50;
+  
+  while(i >= 10){
+    print(i);
+    i--;
+  }
+  
+}
+
+-------------------------------------------------
+
+void main() {
+  int x = 0;
+  
+  do {
+    print("Valor: $x");
+    x++;
+  }while(x <= 20);
+  
+}
